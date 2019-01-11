@@ -32,7 +32,7 @@
 export default {
   async asyncData({ app }) {
     const { articles } = await app.$axios.$get(
-      `https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=${
+      `https://newsapi.org/v2/top-headlines?sources=bleacher-report&apiKey=${
         process.env.API_KEY
       }`
     )

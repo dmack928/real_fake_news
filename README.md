@@ -1,6 +1,6 @@
 # news
 
-## News App created
+## Sports News App created
 
 ## Build Setup
 
