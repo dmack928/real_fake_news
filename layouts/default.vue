@@ -6,6 +6,15 @@
           <h1 class="title"> Sports Hook</h1>
           <h2 class="subtitle">Up to the minute Sporting news!</h2>
         </div>
+        <div>
+          <nuxt-link to="/"> Home </nuxt-link>
+        </div>
+        <div>
+          <nuxt-link to="/nfl"> NFL News </nuxt-link>
+        </div>
+        <div>
+          <nuxt-link to="/nhl"> NHL News </nuxt-link>
+        </div>
       </div>
     </section>
     <nuxt/>
