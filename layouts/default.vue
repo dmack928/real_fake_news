@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero has-text-centered is-primary">
+    <section class="hero has-text-centered is-dark">
       <div class="hero-body">
         <div class="container">
           <h1 class="title"> Sports Hook</h1>
