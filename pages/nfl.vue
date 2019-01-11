@@ -32,7 +32,7 @@
 export default {
   async asyncData({ app }) {
     const { articles } = await app.$axios.$get(
-      `https://newsapi.org/v2/top-headlines?sources=bleacher-report&apiKey=fde33ade4c27470bb1f9062cbf6e9d42`
+      `https://newsapi.org/v2/top-headlines?sources=nfl-news&apiKey=fde33ade4c27470bb1f9062cbf6e9d42`
     )
 
     return { articles }
