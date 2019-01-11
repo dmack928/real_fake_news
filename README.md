@@ -1,6 +1,6 @@
 # news
 
-> news app
+## News App created
 
 ## Build Setup
 
