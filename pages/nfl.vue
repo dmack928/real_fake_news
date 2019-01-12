@@ -11,7 +11,7 @@
             target="_blank">
             <div class="card">
               <div class="card-image">
-                <figure class="image is-3by2">
+                <figure class="image is-1by1">
                   <img
                     :src="article.urlToImage"
                     :alt="article.title">
