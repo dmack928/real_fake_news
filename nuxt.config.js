@@ -40,10 +40,15 @@ module.exports = {
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma',
     // Simple usage
-   '@nuxtjs/dotenv',
+    '@nuxtjs/dotenv',
 
-   // With options
-   ['@nuxtjs/dotenv', { /* module options */ }],
+    // With options
+    [
+      '@nuxtjs/dotenv',
+      {
+        /* module options */
+      }
+    ]
   ],
   /*
   ** Axios module configuration

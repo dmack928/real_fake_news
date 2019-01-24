@@ -7,11 +7,13 @@
           <h2 class="subtitle">Up to the minute Sporting news!</h2>
         </div>
         <div>
-          <nuxt-link to="/"> Home </nuxt-link>
-          <nuxt-link to="/nfl"> NFL News </nuxt-link>
-          <nuxt-link to="/nhl"> NHL News </nuxt-link>
+          <ul>
+            <nuxt-link to="/nfl"> NFL  </nuxt-link>
+            <nuxt-link to="/nhl"> NHL  </nuxt-link>
+          </ul>
         </div>
       </div>
+      <nuxt-link to="/"> Home </nuxt-link>
     </section>
     <nuxt/>
   </div>
@@ -20,6 +22,6 @@
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
-  background: beige;
+  background: #ddffff;
 }
 </style>
