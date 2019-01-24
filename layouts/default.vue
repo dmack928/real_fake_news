@@ -8,12 +8,12 @@
         </div>
         <div>
           <ul>
+            <nuxt-link to="/"> Home </nuxt-link>
             <nuxt-link to="/nfl"> NFL  </nuxt-link>
             <nuxt-link to="/nhl"> NHL  </nuxt-link>
           </ul>
         </div>
       </div>
-      <nuxt-link to="/"> Home </nuxt-link>
     </section>
     <nuxt/>
   </div>
